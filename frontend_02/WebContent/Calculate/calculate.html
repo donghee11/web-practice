@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<title>계산기</title>
+	<link rel="stylesheet" href="cal.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="calculate.js"></script>
+</head>
+<body>
+	<div id="calculate">
+		<div id="input1"></div>
+		<div id="cal_result"></div>
+		<div id="number">
+			<div id="first_line"> 
+				<button class="num" value="7">7</button>
+				<button class="num" value="8">8</button>
+				<button class="num" value="9">9</button>
+				<button class="num" value="+">+</button>
+			</div>
+			
+			<div id="second_line">
+				<button class="num" value="4">4</button>
+				<button class="num" value="5">5</button>
+				<button class="num" value="6">6</button>
+				<button class="num" value="-">-</button>
+			</div>
+			<div id="third_line">
+				<button class="num" value="1">1</button>
+				<button class="num" value="2">2</button>
+				<button class="num" value="3">3</button>
+				<button class="num" value="*">*</button>
+			</div>
+			
+			<div id="fourth_line">
+				<button class="num" value="0">0</button>
+				<button id="clear" value="CE">CE</button>
+				<button value="=" id="OK">=</button>
+				<button class="num" value="/">/</button>
+			</div>
+		
+		</div>
+		<br>
+		<div id="cal_result_2"> 결과 이력 </div>
+		<div id="cal_result_show">
+			<ul id="cal_result_list">
+				
+			</ul>
+		</div>
+	</div>
+
+</body>
+</html>

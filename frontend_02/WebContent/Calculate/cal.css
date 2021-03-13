@@ -1,0 +1,27 @@
+button{
+	width:50px;
+	height:50px;
+	padding:10px;
+
+}
+
+#cal_result{
+	border: 5px solid black;
+	width:200px;
+	padding:10px;
+	margin:10px 500px 10px 0px;
+}
+
+#calculate{
+	width:300px;
+	padding:20px;
+	border:5px solid black;
+	
+}
+
+#input1{
+	border: 5px solid black;
+	width:200px;
+	padding:10px;
+	margin:10px 500px 10px 0px;
+}
